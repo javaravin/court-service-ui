@@ -5,9 +5,8 @@ function App() {
   return (
     <div className="App">
      
-    {/* <RoutesPage/> */
-    <AccountMenu/>
-    }
+     <RoutesPage/> 
+    
    </div>
   );
 }
