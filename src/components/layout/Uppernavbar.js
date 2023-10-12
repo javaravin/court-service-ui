@@ -31,7 +31,7 @@ export default function UpperNavbar( {open, toggleDrawer, username}){
               noWrap
               sx={{ flexGrow: 1 }}
             >
-              Dashboard
+              Amaravathi Medicals
             </Typography>
             <Typography>{username}</Typography>
             <IconButton color="inherit">

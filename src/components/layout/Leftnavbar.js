@@ -3,7 +3,7 @@ import MuiDrawer from '@mui/material/Drawer';
 import { styled} from '@mui/material/styles';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import { useState } from "react";
-import { mainListItems, secondaryListItems } from '../dashboard/listItems'
+import { MainListItems, secondaryListItems } from '../dashboard/listItems'
 
 const drawerWidth = 240;
 
@@ -52,7 +52,7 @@ return(
           </Toolbar>
           <Divider />
           <List component="nav">
-            {mainListItems}
+            {<MainListItems/>}
             <Divider sx={{ my: 1 }} />
             {secondaryListItems}
           </List>

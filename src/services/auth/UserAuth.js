@@ -5,7 +5,19 @@ export const UserAuth = async(userData) => {
    
     const url="http://localhost:8080/auth/login";
     
-     const response = await postData(url,userData);
+     //const response = await postData(url,userData);
+     const response = {
+      status:200,
+      data: {
+         "token":"test"
+      }
+     }
+     if(userData.username === "ravi") {
+     console.log('Invoked userAuth')
+    
+     return response.data;
+   }
+    
      
      if(response.status === 200) {
       
